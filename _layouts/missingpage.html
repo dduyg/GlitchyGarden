@@ -1,1 +1,111 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@dduyg</title>
+    <style>
+        @font-face {
+            font-family: 'Geist Mono';
+            src: url('/assets/fonts/GeistMonoVF.woff2') format('woff2'),
+                 url('/assets/fonts/GeistMonoVF.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        body {
+            font-family: 'Geist Mono', 'Roboto Mono', monospace;
+            background-color: #898989;
+            color: black;
+            font-size: 1.2rem;
+            line-height: 1.5;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2em;
+            text-align: center;
+        }
+        p {
+            margin-bottom: 20px;
+        }
+        a {
+            color: inherit;
+            font-weight: 500;
+            text-decoration: none;
+            border-bottom: 2px solid #F5FFFA;
+            transition: border-bottom 0.3s ease;
+        }
+        a:hover {
+            border-bottom: 2px solid #DBDCDD;
+        }
+        .sculpted-404 {
+            position: relative;
+            display: block;
+            width: 10rem;
+            margin: 0 auto;
+            padding: 0;
+            text-align: center;
+        }
+        .sculpted-404 img {
+            width: 100%;
+        }
+        .sculpted-404 .title {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            margin: 0;
+            padding: 0;
+            font-size: 1.5rem;
+            font-weight: bold;
+            letter-spacing: 3px;
+            color: #898989;
+            font-family: 'Geist Mono', 'Roboto Mono', monospace;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), -2px -2px 4px rgba(255, 255, 255, 0.5);
+        }
+        .glitch {
+            font-size: 1.1rem;
+            letter-spacing: 3px;
+            position: relative;
+            display: inline-block;
+            margin-top: 0;
+            padding-top: 0;
+            animation: glitch 1s infinite;
+        }
+        .glitch::before, .glitch::after {
+            content: attr(data-text);
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        @keyframes glitch {
+            2%, 64% {
+                transform: translate(2px,0) skew(0deg);
+            }
+            4%, 60% {
+                transform: translate(-2px,0) skew(0deg);
+            }
+            62% {
+                transform: translate(0,0) skew(5deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="sculpted-404">
+            <img src="glitchy-404.gif" alt="404 Sculpture">
+            <div class="title">404</div>
+        </div>
+        <div class="glitch" data-text="Page Not Found">Page Not Found</div>
+        <p>Whoops! Looks like this page has vanished into the cyber void. But don't worry, every glitch is just a feature waiting to be found.</p>   
+        <p>In the meantime, let's take you back to the <a href="/">homepage</a>.</p>
+    </main>
+</body>
+</html>
