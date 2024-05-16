@@ -7,16 +7,9 @@ baseurl: "/GlitchyGarden" # Set this if your site is hosted in a subdirectory, e
 # Build settings
 markdown: kramdown
 plugins:
+  - jekyll-sitemap
   - jekyll-gist # Plugin that allows you to embed GitHub Gists directly
   - jekyll-seo-tag # Plugin to generate SEO meta tags
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor
-  - .sass-cache
-  - .jekyll-cache
-  - .jekyll-metadata
 
 # SEO settings
 seo:
@@ -40,9 +33,3 @@ networks:
   - title: Medium
     url: https://medium.com/@yourusername
     icon: medium
-
-# Collections
-collections:
-  portfolio:
-    output: true
-    permalink: /portfolio/:path/
