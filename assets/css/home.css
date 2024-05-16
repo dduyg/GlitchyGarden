@@ -31,6 +31,60 @@ section {
   border-right: none;
 }
 
+/* Navigation */
+nav {
+    display: table;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1rem;
+}
+
+.home-badge {
+    display: table-cell;
+    vertical-align: middle;
+    width: 25%;
+}
+
+#badge {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+}
+
+#menu {
+    display: table-cell;
+    vertical-align: middle;
+    width: 75%;
+    text-align: right;
+    color: #292721;
+    font-family: "Arial", sans-serif;
+}
+
+.item {
+    display: inline-block;
+    text-decoration: none;
+    font-size: .875rem;
+}
+
+.between {
+    margin-right: 1rem;
+}
+
+@media screen and (min-width: 30em) {
+    nav {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    .item {
+        font-size: 1rem;
+    }
+    .between {
+        margin-right: 2rem;
+    }
+}
+/********************************/
+
+/*  Panel */
 header {
   transform: rotate(-90deg);
 } 
