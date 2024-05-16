@@ -1,7 +1,7 @@
 # Site settings
-title: Your Awesome Website
+title: Duygu Dağdelen
 description: A super cool website built with Jekyll
-url: "https://yourusername.github.io" # Your site's URL
+url: "https://dduyg.github.io/GlitchyGarden" # Your site's URL
 baseurl: "" # Set this if your site is hosted in a subdirectory, e.g., "/blog"
 
 # Build settings
