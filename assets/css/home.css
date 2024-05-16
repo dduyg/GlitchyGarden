@@ -38,6 +38,9 @@ a {
 
 /* Navigation */
 nav {
+    position: absolute;
+    top: 0;
+    left: 0;
     display: table;
     width: 100%;
     box-sizing: border-box;
