@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'Geist Mono';
+  src: url('assets/fonts/GeistMonoVF.woff2') format('woff2'),
+       url('assets/fonts/GeistMonoVF.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 html, body {
   padding: 0;
   margin: 0;
@@ -62,7 +70,7 @@ nav {
     width: 75%;
     text-align: right;
     color: #292721;
-    font-family: "Arial", sans-serif;
+    font-family: 'Geist Mono', 'Roboto Mono', monospace;
 }
 .item {
     display: inline-block;
