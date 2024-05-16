@@ -68,8 +68,6 @@ nav {
 .item {
     display: inline-block;
     font-size: .875rem;
-}
-.between {
     margin-right: 1rem;
 }
 
@@ -80,8 +78,6 @@ nav {
     }
     .item {
         font-size: 1rem;
-    }
-    .between {
         margin-right: 2rem;
     }
 }
