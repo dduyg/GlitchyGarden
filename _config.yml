@@ -1,8 +1,8 @@
 # Site settings
 title: Duygu Dağdelen
 description: A super cool website built with Jekyll
-url: "https://dduyg.github.io" # Your site's URL
-baseurl: "/GlitchyGarden" # Set this if your site is hosted in a subdirectory, e.g., "/blog"
+url: "https://dduyg.github.io"
+baseurl: ""
 
 # Build settings
 markdown: kramdown
