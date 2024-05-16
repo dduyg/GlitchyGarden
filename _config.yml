@@ -7,7 +7,7 @@ url: "https://yourusername.github.io" # Your site's URL
 # Build settings
 markdown: kramdown
 plugins:
-  - jekyll-feed # Plugin to generate an Atom feed for your site
+  - jekyll-gist # Plugin that allows you to embed GitHub Gists directly
   - jekyll-seo-tag # Plugin to generate SEO meta tags
 exclude:
   - Gemfile
@@ -17,16 +17,6 @@ exclude:
   - .sass-cache
   - .jekyll-cache
   - .jekyll-metadata
-
-# Front Matter Defaults
-defaults:
-  -
-    scope:
-      path: "" # default
-      type: "posts" # for all posts
-    values:
-      layout: "post"
-      author: "Your Name"
 
 # SEO settings
 seo:
