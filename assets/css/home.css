@@ -61,7 +61,7 @@ nav {
 }
 #badge {
     display: inline-block;
-    width: 5rem;  
+    width: 4.5rem;  
 }
 
 #menu {
@@ -70,6 +70,7 @@ nav {
     width: 75%;
     text-align: right;
     color: #292721;
+    letter-spacing: 1px;
     font-family: 'Geist Mono', 'Roboto Mono', monospace;
 }
 .item {
