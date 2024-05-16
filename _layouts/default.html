@@ -10,14 +10,14 @@
   <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:wght@100..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <link rel="stylesheet" href="assets/styles.css">
+  {% for css_file in page.css %}
+  <link rel="stylesheet" href="/assets/css/{{ css_file }}.css">
+  {% endfor %}   
   </head>
   <body>
-    <img id="badge" src="assets/badge.png">
-
     <nav>
       <ul>
-        {% if page.back %} <li><a href="{{ page.back }}">⍇</a></li> {% endif %}
-        {% if page.next %} <li><a href="{{ page.next }}">⍈</a></li> {% endif %}
+        
       </ul>
     </nav>
 
