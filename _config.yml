@@ -1,8 +1,8 @@
 # Site settings
 title: Your Awesome Website
 description: A super cool website built with Jekyll
-baseurl: "" # Set this if your site is hosted in a subdirectory, e.g., "/blog"
 url: "https://yourusername.github.io" # Your site's URL
+baseurl: "" # Set this if your site is hosted in a subdirectory, e.g., "/blog"
 
 # Build settings
 markdown: kramdown
