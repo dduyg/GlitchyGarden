@@ -1,0 +1,58 @@
+# Site settings
+title: Your Awesome Website
+description: A super cool website built with Jekyll
+baseurl: "" # Set this if your site is hosted in a subdirectory, e.g., "/blog"
+url: "https://yourusername.github.io" # Your site's URL
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed # Plugin to generate an Atom feed for your site
+  - jekyll-seo-tag # Plugin to generate SEO meta tags
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .sass-cache
+  - .jekyll-cache
+  - .jekyll-metadata
+
+# Front Matter Defaults
+defaults:
+  -
+    scope:
+      path: "" # default
+      type: "posts" # for all posts
+    values:
+      layout: "post"
+      author: "Your Name"
+
+# SEO settings
+seo:
+  name: Your Awesome Website
+  title: Your Awesome Website
+  description: A super cool website built with Jekyll
+  keywords: jekyll, github-pages, website, awesome
+  social:
+    twitter: "@yourtwitterhandle"
+    facebook: "yourfacebookpage"
+    instagram: "yourinstagramhandle"
+
+# Socials
+networks:
+  - title: GitHub
+    url: https://github.com/yourusername
+    icon: github
+  - title: Instagram
+    url: https://instagram.com/yourusername
+    icon: instagram
+  - title: Medium
+    url: https://medium.com/@yourusername
+    icon: medium
+
+# Collections
+collections:
+  portfolio:
+    output: true
+    permalink: /portfolio/:path/
