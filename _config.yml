@@ -26,11 +26,21 @@ seo:
 # Socials
 networks:
   - title: GitHub
-    url: https://github.com/yourusername
+    url: https://github.com/dduyg
     icon: github
   - title: Instagram
-    url: https://instagram.com/yourusername
+    url: https://instagram.com/insert.data
     icon: instagram
+  - title: Ko-fi
+    url: https://ko-fi.com/dduyg
+    icon: heart outline
   - title: Medium
-    url: https://medium.com/@yourusername
-    icon: medium
+    url: https://medium.com/@dduyg
+    icon: medium m
+  - title: Behance
+    url: https://www.behance.net/dduyg
+    icon: behance square
+
+prints: https://www.inprnt.com/gallery/insert.data
+email: dduyg.contact@gmail.com
+     
