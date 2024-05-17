@@ -58,6 +58,7 @@ nav {
     display: table-cell;
     vertical-align: middle;
     width: 25%;
+    cursor: pointer;
 }
 #badge {
     display: inline-block;
