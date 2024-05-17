@@ -28,6 +28,23 @@
             padding: 2em;
             text-align: center;
         }
+        #dduyg { 
+            position: absolute;
+            top: 4%;
+            left: 4%;
+            letter-spacing: 0.07em;
+            color: #353839;
+            text-decoration: none;
+            text-align: center;
+            font-size: 1.35em;
+            font-family: "Noto Sans Mono", monospace;
+            cursor: pointer;
+        }
+        @media only screen and (max-width: 768px) { 
+            #dduyg {
+                font-size: 1.1em;
+            }
+        }        
         p {
             letter-spacing: 0.02em;
             margin-bottom: 20px;
@@ -97,11 +114,12 @@
     </style>
 </head>
 <body>
+    <div id="dduyg"><a href="/">/dduyg</a></div>
     <main>
         <img src="/assets/images/sculpt-404.gif" alt="●">
         <div class="glitch" data-text="404">404</div>
         <p><em>Whoops!</em>&nbsp; Looks like this page has vanished into the cyber void. But don't worry, every glitch is just a feature waiting to be found.</p>  
-        <a href="/" class="btn">Return To Home</a>
+        <a href="{{ site.baseurl }}/" class="btn">Return To Home</a>
     </main>
 </body>
 </html>
