@@ -39,6 +39,11 @@ section {
   border-right: none;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 /* Navigation */
 nav {
     position: absolute;
@@ -146,8 +151,6 @@ header h1 {
 }
 
 .panel-link {
-  color: inherit;
-  text-decoration: none;
   font-family: 'Geist Mono', monospace;
   border-bottom: 2px solid #d0d0d0;
   transform: skew(52deg) translateX(-50%);  
