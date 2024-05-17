@@ -184,20 +184,20 @@ header h1 {
    padding-top: 2rem;
    padding-bottom: 2rem;
 }
-.logo-ftr {
+.logo-cr {
   display: table-cell;
   vertical-align: top;
 }
-.logo-ftr img {
+.logo-cr img {
     max-width: 16rem;
     display: block;
 }
-.ftr {
+.cr {
     display: table-cell;
     vertical-align: top;
     padding-left: 1rem;
 }
-.ftr p {
+.cr p {
     margin-top: 0;
     margin-bottom: 0;
 }      
