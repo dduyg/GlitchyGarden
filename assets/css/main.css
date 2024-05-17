@@ -11,7 +11,7 @@ html, body {
   margin: 0;
   border: 0;
   background-color: #898989;
-  color: black;
+  color: rgba(0, 0, 0, 0.87);
   line-height: 1.5;
   font-family: "Lato", sans-serif;
 }
@@ -39,9 +39,13 @@ section {
   border-right: none;
 }
 
-a {
+a, .panel-link {
   color: inherit;
   text-decoration: none;
+  font-family: 'Geist Mono', monospace;
+  padding-bottom: 0px !important;
+  border-bottom: 2px solid #d0d0d0;
+  transform: skew(52deg) translateX(-50%);  
 }
 
 /* Navigation */
@@ -105,7 +109,7 @@ header h1 {
   }
 }
 .panel-active header {
-  color: beige;
+  color: #d0d0d0;
   letter-spacing: 3px;
   transform: rotate(0deg);
   transition: 0.5s ease;
@@ -149,12 +153,6 @@ header h1 {
 .panel-active .content {
   display: block;
 }
-
-.panel-link {
-  font-style: italic;
-  border-bottom: 3px solid #F5FFFA;
-}
-
 
 
 
