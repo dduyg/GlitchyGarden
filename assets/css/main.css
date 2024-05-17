@@ -71,7 +71,7 @@ nav {
     text-align: right;
     color: #292721;
     letter-spacing: 1px;
-    font-family: 'Geist Mono', 'Roboto Mono', monospace;
+    font-family: 'Geist Mono', monospace;
 }
 .item {
     display: inline-block;
@@ -150,8 +150,8 @@ header h1 {
   display: block;
 }
 
-.panel-link {
-  font-family: 'Geist Mono', monospace;
+.links, .panel-link {
+  font-style: italic;
   border-bottom: 2px solid #d0d0d0;
   transform: skew(52deg) translateX(-50%);  
 }
