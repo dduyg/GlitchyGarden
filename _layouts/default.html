@@ -2,23 +2,25 @@
 <html lang="en">
   <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="{{ site.description }}">
   <meta name="author" content="{{ site.author }}">
   <title>{{ site.title }} {% if page.title %}| {{ page.title }}{% endif %}</title>
   <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico">
-  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:wght@100..900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-  <link rel="stylesheet" href="assets/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/63e03a9b9c.js" crossorigin="anonymous"></script>
   {% for css_file in page.css %}
-  <link rel="stylesheet" href="/assets/css/{{ css_file }}.css">
+  <link rel="stylesheet" href="/assets/css/{{ css_file }}.css">  
   {% endfor %}   
   </head>
   <body>
     <nav>
-      <ul>
-        
-      </ul>
+      <a class="home-badge" href="{{ site.baseurl}}/">
+        <img id="badge" src="assets/images/badge.gif">
+      </a>
+      <div id="menu">
+        <a class="item" href="#">See More</a>
+      </div>  
     </nav>
 
     <main>
