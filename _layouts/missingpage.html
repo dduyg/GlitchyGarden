@@ -73,21 +73,26 @@
         }
         .btn {
             display: inline-block;
-            margin-top: 2rem;
-            padding: 0.5em 1.25em;
-            border: 1px solid;
-            border-radius: 8px;
-            color: inherit;
+            font-size: .875rem;
+            -moz-osx-font-smoothing: grayscale;
+            backface-visibility: hidden;
+            transform: translateZ(0);
+            transition: transform .25s ease-out;
             text-decoration: none;
-            letter-spacing: 0.02em;
+            border-radius: 9999px;
+            border: 1px solid;
+            border-width: .125rem;
+            padding: .5rem 1rem;
+            margin-bottom: .5rem;
+            color: #111;
             cursor: pointer;
             font-family: "Noto Sans Mono", monospace;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            transition: background-color 0.3s ease;     
         }
-        .btn:hover {  
-            font-weight: bold;
-            background-color: #F5EDEA;
+        .btn:hover, .btn:focus {
+            transform: scale(1.05);
+        }       
+        .btn:active {
+            transform: scale(.9);
         }
     </style>
 </head>
