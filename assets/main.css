@@ -106,7 +106,7 @@ header h1 {
   }
 }
 .panel-active header {
-  color: #d0d0d0;
+  color: #F9FCF1;
   letter-spacing: 3px;
   transform: rotate(0deg);
   transition: 0.5s ease;
