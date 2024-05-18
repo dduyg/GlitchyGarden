@@ -14,10 +14,10 @@ plugins:
 
 # SEO settings
 seo:
-  name: Your Awesome Website
-  title: Your Awesome Website
-  description: A super cool website built with Jekyll
-  keywords: jekyll, github-pages, website, awesome
+  name: Duygu Dağdelen
+  title: dduyg
+  description: As a data scientist with a flair for creativity, bringing ideas to life by developing data products
+  keywords: dduyg, data-scientist, website, code
   social:
     twitter: "@yourtwitterhandle"
     facebook: "yourfacebookpage"
@@ -43,4 +43,3 @@ networks:
 
 prints: https://www.inprnt.com/gallery/insert.data
 email: dduyg.contact@gmail.com
-     
