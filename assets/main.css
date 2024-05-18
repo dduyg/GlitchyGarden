@@ -153,8 +153,9 @@ header h1 {
 
 .links, .panel-link {
   font-style: italic;
-  border-bottom: 2px solid #d0d0d0;
-  transform: skew(52deg) translateX(-50%);  
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-decoration-color: #d0d0d0;  
 }
 
 #credits a::before {
