@@ -125,7 +125,7 @@ header h1 {
 
 .content {
   display: none;
-  font-size: min(4vw, 19px); /* Limits font size to 19px or 4vw, whichever is smaller */
+  font-size: min(4.2vw, 19px); /* Limits font size to 19px or 4vw, whichever is smaller */
   padding: 3% 10%;
   overflow-x: hidden;
   overflow-y: auto;
