@@ -46,10 +46,10 @@ a {
   text-decoration: none;
 }
 .inline-icon {
-    display: inline-block;
-    width: 1em;
-    height: 1em;
-    vertical-align: middle;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  vertical-align: middle;
 }
 
 /* Navigation */
@@ -182,8 +182,9 @@ header h1 {
   text-decoration-thickness: 3px;
   text-decoration-color: var(--marker);
   transition: color 0.6s ease;
+  cursor: pointer;
 }
-.links:hover, .links:focus, .panel-link:hover, .panel-link:focus {
+.links:hover, .panel-link:hover {
   color: var(--marker);
   font-weight: bold;
 }
@@ -234,7 +235,8 @@ footer {
 .site-contact a {
   display: inline-block;
   padding: .25rem .5rem;
-  text-decoration: underline; 
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 60em) {
