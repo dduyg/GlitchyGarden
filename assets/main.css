@@ -173,13 +173,11 @@ header h1 {
   text-decoration: underline;
   text-decoration-thickness: 3px;
   text-decoration-color: #d0d0d0;
-  transition: color .15s ease-in;
+  transition: color 0.6s ease;
 }
-.links:link, .links:visited, .links:hover, .links:active, .links:focus {
-	 transition: color .15s ease-in;
-}
-.links:hover, .links:focus {
-  color: #d0d0d0;
+.links:hover, .links:focus, .panel-link:hover, .panel-link:focus {
+  color: #AC4E5E;
+  font-weight: bold;
 }
 
 /* Footer */
