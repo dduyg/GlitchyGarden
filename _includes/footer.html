@@ -5,7 +5,11 @@
     This site is a continuous work in progress, evolving with every new idea and inspiration.
   </p>
   <div class="social-links">
-    {% include networks.html %}  
+    {% for network in site.networks %}
+      <a href="{{ network.url }}" title="{{ network.title }}" target="_blank">
+        <i class="{{ network.icon }}"></i>
+      </a>
+    {% endfor %}  
   </div>
   <div class="re-links">
     <a href="{{ .URL }}">Contact</a>
