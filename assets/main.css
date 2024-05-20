@@ -177,8 +177,77 @@ header h1 {
 
 /* Footer */
 footer {
-  font-size: 0.75em;
-  padding-top: 50px;
   font-family: 'Geist Mono', monospace;
+  padding: 2rem 4rem;
+  display: block;
+}
+.site-copyright {
+  font-size: .75rem;
+  display: block;
+  vertical-align: middle; 
+  width: 100%;
+  text-align: center;
+  padding-top: .5rem;
+  padding-bottom: .5rem; 
+  line-height: 1.5; 
+}    
+.middot-divider::after {
+  color: #516db0;
+  margin-left: .25rem;
+  margin-right: .25rem;
+  content:'\00B7';  
+}
+.social-links {
+  display: block;
+  vertical-align: middle;
+  width: 100%;
+  text-align: center;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}   
+.re-links {
+  display: block;
+  font-size: .875rem;
+  vertical-align: middle;
+  width: 100%;
+  text-align: center;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.re-links a {
+  display: inline-block;
+  padding: .25rem .5rem;
+  text-decoration: underline; 
+}
+
+@media screen and (min-width: 60em) {
+  footer {
+    display: table;
+  }
+  .site-copyright { 
+    display: table-cell;
+    width: 33%;
+    text-align: left;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;  
+  }
+  .social-links {
+    display: table-cell;
+    width: 33%;
+    padding-top: 0;
+    padding-bottom: 0;
+  }  
+  .re-links {
+    display: table-cell;
+    text-align: right;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
 }
 /********************************/
