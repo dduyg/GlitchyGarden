@@ -181,27 +181,4 @@ footer {
   padding-top: 50px;
   font-family: 'Geist Mono', monospace;
 }
-.credits {
-   display: table;
-   max-width: 32rem;
-   margin: 10px auto;
-}
-.logo-container {
-  display: table-cell;
-  vertical-align: top;
-}
-.logo-container img {
-    width: 3rem;
-    display: block;
-    opacity: 0.6;
-}
-.rules {
-    display: table-cell;
-    vertical-align: top;
-    padding-left: 1rem;
-}
-.rules p {
-    margin-top: 0;
-    margin-bottom: 0;
-}
 /********************************/
