@@ -17,7 +17,7 @@
     {% endif %}   
   </div>
   <div class="re-links">
-    <a href="{{ .URL }}">Contact</a>
+    <a href="mailto:{{ site.email }}?subject=Contacting via /{{ site.title }}" target="_blank">Contact</a>
     {% assign ko_fi = site.networks | where: "title", "Ko-fi" | first %}
     <a href="{{ ko_fi.url }}" target="_blank">Give Support</a>
   </div>
