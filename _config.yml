@@ -27,19 +27,19 @@ seo:
 networks:
   - title: GitHub
     url: https://github.com/dduyg
-    icon: github
+    icon: fab fa-github
   - title: Instagram
     url: https://instagram.com/insert.data
-    icon: instagram
+    icon: fab fa-instagram
   - title: Ko-fi
     url: https://ko-fi.com/dduyg
-    icon: heart outline
+    icon: far fa-heart
   - title: Medium
     url: https://medium.com/@dduyg
-    icon: medium m
+    icon: fab fa-medium
   - title: Behance
     url: https://www.behance.net/dduyg
-    icon: behance square
+    icon: fab fa-behance
 
 prints: https://www.inprnt.com/gallery/insert.data
 email: dduyg.contact@gmail.com
