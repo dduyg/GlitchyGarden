@@ -13,6 +13,7 @@
   </div>
   <div class="re-links">
     <a href="{{ .URL }}">Contact</a>
-    <a href="{{ site.networks | where: 'title', 'Ko-fi' | first | url }}" target="_blank">Give Support</a>
+    {% assign ko_fi = site.networks | where: "title", "Ko-fi" | first %}
+    <a href="{{ ko_fi.url }}" target="_blank">Give Support</a>
   </div>
 </div>
