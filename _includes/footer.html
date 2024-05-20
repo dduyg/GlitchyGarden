@@ -1,24 +1,22 @@
-<div class="site-footer">
-  <p class="site-copyright">
-    By <a href="{{ site.baseurl }}/about">Duygu Dağdelen</a> © 2024.   
-    <span class="middot-divider"></span>
-    This site is a continuous work in progress, evolving with every new idea and inspiration.
-  </p>
-  <div class="social-links">
-    {% for network in site.networks %}
-      <a href="{{ network.url }}" title="{{ network.title }}" target="_blank">
-        <i class="{{ network.icon }}"></i>
-      </a>
-    {% endfor %}
-    {% if site.email %}
-      <a href="mailto:{{ site.email }}?subject=Contacting via /{{ site.title }}" target="_blank">
-        <i class="far fa-envelope"></i>     
-      </a>
-    {% endif %}   
-  </div>
-  <div class="re-links">
-    <a href="mailto:{{ site.email }}?subject=Contacting via /{{ site.title }}" target="_blank">Contact</a>
-    {% assign ko_fi = site.networks | where: "title", "Ko-fi" | first %}
-    <a href="{{ ko_fi.url }}" target="_blank">Give Support</a>
-  </div>
+<p class="site-copyright">
+   By <a href="{{ site.baseurl }}/about">Duygu Dağdelen</a> © 2024.   
+   <span class="middot-divider"></span>
+   This site is a continuous work in progress, evolving with every new idea and inspiration.
+</p>
+<div class="social-links">
+  {% for network in site.networks %}
+    <a href="{{ network.url }}" title="{{ network.title }}" target="_blank">
+       <i class="{{ network.icon }}"></i>
+    </a>
+  {% endfor %}
+  {% if site.email %}
+    <a href="mailto:{{ site.email }}?subject=Contacting via /{{ site.title }}" target="_blank">
+       <i class="far fa-envelope"></i>     
+    </a>
+  {% endif %}   
+</div>
+<div class="re-links">
+   <a href="mailto:{{ site.email }}?subject=Contacting via /{{ site.title }}" target="_blank">Contact</a>
+   {% assign ko_fi = site.networks | where: "title", "Ko-fi" | first %}
+   <a href="{{ ko_fi.url }}" target="_blank">Give Support</a>
 </div>
