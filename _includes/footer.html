@@ -1,12 +1,16 @@
-<div class="credits">
-    <div class="logo-container">
-        <img src="assets/images/dd.png" alt="●">
+<footer>
+  <div class="site-footer">
+    <p class="site-copyright">
+      Hi here tgextcopy56
+      <span class="middot-divider"></span>
+      This site is a continuous work in progress, evolving with every new idea and inspiration.
+    </p>
+    <div class="social-links">
+      {{ networks.html }}
     </div>
-    <div class="rules">
-        <p><a href="{{ site.baseurl }}/about">© 2024 Duygu Dağdelen</a>
-            <br>&lt;Site is always in progress&gt;
-            <br><a href="#contact" class="panel-link">Contact</a>
-            &nbsp;&nbsp;&nbsp; <a href="{{ site.data.bio.basics.profiles[2].url }}" target="_blank">Give Support</a>
-        </p>
+    <div class="re-links">
+      <a href="{{ .URL }}">Contact</a>
+      <a href="#">Give Support</a>
     </div>
-</div>
+  </div>
+</footer>
