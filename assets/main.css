@@ -211,17 +211,7 @@ footer {
   margin-right: .25rem;
   content:'\00B7';  
 }
-.social-links {
-  display: block;
-  vertical-align: middle;
-  width: 100%;
-  text-align: center;
-  padding-top: .5rem;
-  padding-bottom: .5rem;
-  margin-top: 0;
-  margin-bottom: 0;
-}   
-.site-contact {
+.social-links, .site-contact {
   display: block;
   font-size: .875rem;
   vertical-align: middle;
