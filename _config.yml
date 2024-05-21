@@ -40,6 +40,6 @@ networks:
   - title: Behance
     url: https://www.behance.net/dduyg
     icon: fab fa-behance
-
-prints: https://www.inprnt.com/gallery/insert.data
-email: dduyg.contact@gmail.com
+  - title: INPRNT
+    url: https://www.inprnt.com/gallery/insert.data
+    icon: fas fa-vector-square
