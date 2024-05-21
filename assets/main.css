@@ -4,8 +4,8 @@
 }
 @font-face {
   font-family: 'Geist Mono';
-  src: url('assets/GeistMonoVF.woff2') format('woff2'),
-       url('assets/GeistMonoVF.woff') format('woff');
+  src: url('/assets/GeistMonoVF.woff2') format('woff2'),
+       url('/assets/GeistMonoVF.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -204,7 +204,6 @@ footer {
   padding-top: .5rem;
   padding-bottom: .5rem; 
   line-height: 1.5;
-  font-family: 'Geist Mono', monospace;
 }    
 .middot-divider::after {
   color: var(--marker);
@@ -239,7 +238,6 @@ footer {
   text-decoration: underline;
   cursor: pointer;
   text-transform: uppercase;
-  font-family: 'Geist Mono', monospace;
 }
 
 @media screen and (min-width: 60em) {
