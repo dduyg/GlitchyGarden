@@ -3,9 +3,9 @@
   --back: #898989;
 }
 @font-face {
-  font-family: 'Geist Mono';
-  src: url('/assets/GeistMonoVF.woff2') format('woff2'),
-       url('/assets/GeistMonoVF.woff') format('woff');
+  font-family: 'LabMono';
+  src: url('/assets/labmono-regular-web.woff2') format('woff2'),
+       url('/assets/labmono-regular-web.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -80,7 +80,7 @@ nav {
     text-align: right;
     color: #292721;
     letter-spacing: 1px;
-    font-family: 'Geist Mono', monospace;
+    font-family: 'LabMono', sans-serif;
 }
 .item {
     display: inline-block;
@@ -191,7 +191,7 @@ header h1 {
 
 /* Footer */
 footer {
-  font-family: 'Geist Mono', monospace;
+  font-family: 'LabMono', sans-serif;
   padding: 2rem 4rem;
   display: block;
 }
