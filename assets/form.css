@@ -33,6 +33,11 @@ body, html {
     margin-bottom: 20px;
 }
 
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
 .form-group input,
 .form-group textarea {
     width: 100%;
