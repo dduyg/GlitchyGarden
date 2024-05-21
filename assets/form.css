@@ -1,64 +1,58 @@
 /* Styling for the contact form */
-body, html {
-    height: 100%;
-    margin: 0;
-}
+    #contacting {
+        background-color: #f7f7f7;
+        padding: 50px 0;
+    }
 
-#contacting {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
+    .container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
 
-.container {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
+    #contacting h1 {
+        text-align: center;
+        margin-bottom: 30px;
+        font-size: 2.5rem;
+        color: #333;
+    }
 
-#contacting h1 {
-    text-align: center;
-    margin-bottom: 30px;
-    font-size: 2.5rem;
-}
+    .form-group {
+        margin-bottom: 20px;
+    }
 
-.form-group {
-    margin-bottom: 20px;
-}
+    .contact-form label {
+        display: block;
+        margin-bottom: 5px;
+    }
 
-.contact-form label {
-    display: block;
-    margin-bottom: 5px;
-}
+    .form-group input,
+    .form-group textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 1rem;
+        box-sizing: border-box;
+    }
 
-.form-group input,
-.form-group textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 1rem;
-    box-sizing: border-box;
-}
+    .form-group textarea {
+        resize: vertical;
+    }
 
-.form-group textarea {
-    resize: vertical;
-}
+    .contact-form button {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
 
-.contact-form button {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.contact-form button:hover {
-    background-color: #0056b3;
-}
+    .contact-form button:hover {
+        background-color: #0056b3;
+    }
