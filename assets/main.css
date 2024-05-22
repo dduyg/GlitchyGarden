@@ -1,4 +1,6 @@
 :root {
+  --color-main: rgba(0, 0, 0, 0.87);
+  --color-light-main: #292721; 
   --marker: #CCCCCC;
   --back: #898989;
   --main-font: "Lato", sans-serif;
@@ -17,7 +19,7 @@ html, body {
   margin: 0;
   border: 0;
   background-color: var(--back);
-  color: rgba(0, 0, 0, 0.87);
+  color: var(--color-main);
   line-height: 1.5;
   font-family: var(--main-font);
 }
@@ -80,7 +82,7 @@ nav {
     vertical-align: middle;
     width: 75%;
     text-align: right;
-    color: #292721;
+    color: var(--color-light-main);
     letter-spacing: 1px;
     font-family: var(--mono-font);
 }
