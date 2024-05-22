@@ -93,6 +93,7 @@ nav {
     display: inline-block;
     font-size: 1em;
     margin-right: 1rem;
+    letter-spacing: 0.07em;
 }
 
 @media screen and (min-width: 30em) {
