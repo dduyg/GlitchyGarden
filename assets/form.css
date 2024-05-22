@@ -25,6 +25,7 @@ body, html {
 }
 
 .form-group {
+    font-family: var(--mono-font);
     margin-bottom: 20px;
 }
 
@@ -55,6 +56,7 @@ form button {
     display: block;
     width: 100%;
     padding: 10px;
+    font-family: var(--mono-font);
     background-color: #292721;
     color: var(--marker);
     letter-spacing: 1px;
