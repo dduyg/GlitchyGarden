@@ -1,5 +1,5 @@
 :root {
-  --color-main: black;
+  --color-main: rgba(0, 0, 0, 0.87);
   --color-light-main: #292721; 
   --marker: #CCCCCC;
   --back: #898989;
@@ -123,6 +123,7 @@ nav {
 
 /*  Panel */
 header {
+  font-family: "Lato", sans-serif;
   transform: rotate(-90deg);
 } 
 header h1 {
