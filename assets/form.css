@@ -11,6 +11,7 @@ body, html {
     min-height: 100vh;
     padding: 1em;
     box-sizing: border-box;
+    font-family: var(--mono-font);
 }
 
 .container {
