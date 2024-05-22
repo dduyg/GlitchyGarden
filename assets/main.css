@@ -55,9 +55,6 @@ a {
   height: 1em;
   vertical-align: middle;
 }
-u {
-  text-decoration: overline;
-}
 
 /* Navigation */
 nav {
@@ -91,9 +88,10 @@ nav {
 }
 .item {
     display: inline-block;
-    font-size: 1.1em;
+    font-size: 1em;
     margin-right: 1rem;
     letter-spacing: 3px;
+    text-decoration: overline;
 }
 
 @media screen and (min-width: 30em) {
@@ -102,7 +100,7 @@ nav {
         padding-right: 4rem;
     }
     .item {
-        font-size: 1.2em;
+        font-size: 1.1em;
         margin-right: 2rem;
     }
 }
