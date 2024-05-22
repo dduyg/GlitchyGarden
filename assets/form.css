@@ -41,7 +41,7 @@ form label {
     font-size: 1rem;
     font-family: var(--mono-font);
     box-sizing: border-box;
-    background-color: #9B9B9B;
+    background-color: #969696;
 }
 
 input:focus, textarea:focus {
