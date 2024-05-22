@@ -37,8 +37,8 @@ body, html {
 .form-group textarea {
     width: 100%;
     padding: 10px;
-    border: 1px solid black;
-    border-radius: 5px;
+    border: 2px solid black;
+    border-radius: .5em;
     font-size: 1rem;
     box-sizing: border-box;
     background-color: #E0E0E0;
@@ -52,15 +52,17 @@ body, html {
     display: block;
     width: 100%;
     padding: 10px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
+    background-color: #ccc;
+    color: var(--marker);
+    border-radius: 30px;
     font-size: 1rem;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    border: 2px solid var(--marker);
+    box-shadow: 5px 5px Opx 2px var(--marker);
+    transition: 0.3s all ease-in;
 }
 
 .contact-form button:hover {
-    background-color: #0056b3;
+    box-shadow: 1px Opx Opx 2px var(--marker);   
+    background-color: var(--back);
 }
