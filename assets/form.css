@@ -36,7 +36,7 @@ form label {
 .form-group textarea {
     width: 100%;
     padding: 10px;
-    border: 1px solid var(--color-main);
+    border: 1px solid var(--color-light-main);
     font-size: 1rem;
     font-family: var(--mono-font);
     box-sizing: border-box;
@@ -47,7 +47,7 @@ form label {
 .form-group input:focus,
 .form-group textarea:focus {
     border-color: var(--marker);
-    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .form-group textarea {
@@ -59,7 +59,7 @@ form button {
     width: 100%;
     padding: 10px;
     font-family: var(--mono-font);
-    background-color: var(--color-main);
+    background-color: var(--color-light-main);
     color: var(--marker);
     letter-spacing: 1px;
     border-radius: 30px;
