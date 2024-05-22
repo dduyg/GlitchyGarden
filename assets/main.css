@@ -197,7 +197,7 @@ header h1 {
 /* Footer */
 footer {
   font-family: var(--mono-font);
-  padding: 2rem 4rem;
+  padding: 2rem;
   display: block;
 }
 .site-copyright {
@@ -230,6 +230,7 @@ footer {
 
 @media screen and (min-width: 60em) {
   footer {
+    padding: 2rem 4rem;
     display: table;
   }
   .site-copyright { 
