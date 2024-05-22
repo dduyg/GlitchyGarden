@@ -10,7 +10,6 @@ body, html {
     align-items: center;
     min-height: 100vh;
     padding: 1em;
-    box-sizing: border-box;
 }
 
 #contact-form h1 {
@@ -22,7 +21,6 @@ body, html {
     max-width: 600px;
     width: 100%;
     margin: 3em 0;
-    box-sizing: border-box;
 }
 
 .form-group {
