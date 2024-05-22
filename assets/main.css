@@ -56,7 +56,7 @@ a {
   vertical-align: middle;
 }
 u {
-  text-decoration-thickness: 3px;
+  text-decoration: overline;
 }
 
 /* Navigation */
