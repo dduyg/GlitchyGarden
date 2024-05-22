@@ -91,9 +91,9 @@ nav {
 }
 .item {
     display: inline-block;
-    font-size: 1em;
+    font-size: 1.1em;
     margin-right: 1rem;
-    letter-spacing: 0.07em;
+    letter-spacing: 3px;
 }
 
 @media screen and (min-width: 30em) {
@@ -102,7 +102,7 @@ nav {
         padding-right: 4rem;
     }
     .item {
-        font-size: 1.1em;
+        font-size: 1.2em;
         margin-right: 2rem;
     }
 }
