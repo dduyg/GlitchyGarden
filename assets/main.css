@@ -55,6 +55,9 @@ a {
   height: 1em;
   vertical-align: middle;
 }
+u {
+  text-decoration-thickness: 3px;
+}
 
 /* Navigation */
 nav {
