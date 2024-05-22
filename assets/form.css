@@ -9,7 +9,7 @@ body, html {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    padding: 1em;
+    padding: 3em;
     box-sizing: border-box;
 }
 
@@ -39,6 +39,7 @@ form label {
     padding: 10px;
     border: 1px solid #292721;
     font-size: 1rem;
+    font-family: var(--mono-font);
     box-sizing: border-box;
     background-color: #9B9B9B;
 }
