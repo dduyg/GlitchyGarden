@@ -227,12 +227,9 @@ footer {
   margin-top: 0;
   margin-bottom: 0;
 }
-.social-links i {
-    display: inline-block;
-    width: 2rem;
-    height: 2rem;
+.social-links a {
+    font-size: 1.1rem;
     margin-right: .25rem;
-    text-align: center;
 }
 .site-contact a {
   display: inline-block;
