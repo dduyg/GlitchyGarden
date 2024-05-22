@@ -3,7 +3,7 @@
   --color-light-main: #292721; 
   --marker: #CCCCCC;
   --back: #898989;
-  --main-font: "Lato", sans-serif;
+  --main-font: "Schibsted Grotesk", sans-serif;
   --mono-font: 'LabMono', sans-serif;
 }
 @font-face {
@@ -123,6 +123,7 @@ nav {
 
 /*  Panel */
 header {
+  font-family: "Lato", sans-serif;
   transform: rotate(-90deg);
 } 
 header h1 {
