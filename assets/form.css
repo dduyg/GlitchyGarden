@@ -16,7 +16,6 @@ body, html {
 .container {
     max-width: 600px;
     width: 100%;
-    box-sizing: border-box;
 }
 
 #contacting h1 {
