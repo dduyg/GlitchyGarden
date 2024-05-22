@@ -61,7 +61,7 @@ form button {
     font-family: var(--mono-font);
     background-color: var(--color-light-main);
     color: var(--marker);
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     border-radius: 30px;
     font-size: 1rem;
     font-weight: bold;
