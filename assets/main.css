@@ -91,8 +91,8 @@ nav {
     font-size: 1em;
     margin-right: 1rem;
     letter-spacing: 3px;
-    text-decoration: overline;
     padding-top: 0.75em;
+    border-top: 1px solid var(--color-main);  
 }
 
 @media screen and (min-width: 30em) {
