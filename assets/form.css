@@ -14,14 +14,14 @@ body, html {
     font-family: var(--mono-font);
 }
 
-.contacting {
-    max-width: 600px;
-    width: 100%;
-}
-
 #contact-form h1 {
     text-align: center;
     margin-bottom: 30px;
+}
+
+.contacting {
+    max-width: 600px;
+    width: 100%;
 }
 
 .form-group {
