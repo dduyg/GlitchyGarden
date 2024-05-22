@@ -1,6 +1,8 @@
 :root {
   --marker: #CCCCCC;
   --back: #898989;
+  --main-font: "Lato", sans-serif;
+  --mono-font: 'LabMono', sans-serif;
 }
 @font-face {
   font-family: 'LabMono';
@@ -17,7 +19,7 @@ html, body {
   background-color: var(--back);
   color: rgba(0, 0, 0, 0.87);
   line-height: 1.5;
-  font-family: "Lato", sans-serif;
+  font-family: var(--main-font);
 }
 main {
   width: 100%;
@@ -80,7 +82,7 @@ nav {
     text-align: right;
     color: #292721;
     letter-spacing: 1px;
-    font-family: 'LabMono', sans-serif;
+    font-family: var(--mono-font);
 }
 .item {
     display: inline-block;
@@ -191,7 +193,7 @@ header h1 {
 
 /* Footer */
 footer {
-  font-family: 'LabMono', sans-serif;
+  font-family: var(--mono-font);
   padding: 2rem 4rem;
   display: block;
 }
