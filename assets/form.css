@@ -14,13 +14,13 @@ body, html {
 
 #contact-form h1 {
     text-align: center;
+    margin-top: 50px;
     margin-bottom: 30px;
 }
 
 .contacting {
     max-width: 600px;
     width: 100%;
-    margin: 3em 0;
 }
 
 .form-group {
