@@ -41,11 +41,10 @@ body, html {
     border-radius: 5px;
     font-size: 1rem;
     box-sizing: border-box;
-    background-color: #AFAFAF;
+    background-color: #9B9B9B;
 }
 
-.form-group input:focus,
-.form-group textarea:focus {
+input:focus, textarea:focus {
     border: 1px solid #292721 !important; /* Override focus border color */
 }
 
