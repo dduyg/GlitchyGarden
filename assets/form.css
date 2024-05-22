@@ -42,10 +42,13 @@ form label {
     font-family: var(--mono-font);
     box-sizing: border-box;
     background-color: #969696;
+    outline: none; /* Remove default browser outline */
 }
 
-input:focus, textarea:focus {
-    border: 1px solid #292721 !important; /* Override focus border color */
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
 }
 
 .form-group textarea {
