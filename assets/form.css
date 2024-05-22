@@ -4,7 +4,7 @@ body, html {
     margin: 0;
 }
 
-#contacting {
+#contact-form {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,12 +14,12 @@ body, html {
     font-family: var(--mono-font);
 }
 
-.container {
+.contacting {
     max-width: 600px;
     width: 100%;
 }
 
-#contacting h1 {
+#contact-form h1 {
     text-align: center;
     margin-bottom: 30px;
 }
@@ -28,7 +28,7 @@ body, html {
     margin-bottom: 20px;
 }
 
-.contact-form label {
+form label {
     display: block;
     margin-bottom: 5px;
 }
@@ -51,7 +51,7 @@ input:focus, textarea:focus {
     resize: vertical;
 }
 
-.contact-form button {
+form button {
     display: block;
     width: 100%;
     padding: 10px;
@@ -67,6 +67,6 @@ input:focus, textarea:focus {
     transition: background-color 0.3s ease;
 }
 
-.contact-form button:hover {  
+form button:hover {  
     background-color: var(--back);
 }
