@@ -1,10 +1,10 @@
 :root {
   --color-main: rgba(0, 0, 0, 0.87);
   --color-light-main: #292721; 
-  --marker: #f9f9f9;
+  --marker: #CCCCCC;
   --back: #898989;
   --main-font: "Schibsted Grotesk", sans-serif;
-  --mono-font: 'Droid Sans Mono', monospace;
+  --mono-font: 'LabMono', sans-serif;  
 }
 @font-face {
   font-family: 'LabMono';
