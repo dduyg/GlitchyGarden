@@ -99,10 +99,11 @@ nav {
 .item u::before {
    content: '';
    position: absolute;
-   top: -0.3em;
+   top: -0.25em;
    left: 0;
    right: 0;
-   border-top: 1px solid currentColor;
+   height: 1.3px; /* Intermediate thickness */
+   background-color: currentColor;
 }
 
 @media screen and (min-width: 30em) {
