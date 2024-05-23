@@ -99,7 +99,7 @@ nav {
 .item u::before {
    content: '';
    position: absolute;
-   top: -0.15em;
+   top: -0.3em;
    left: 0;
    right: 0;
    border-top: 1px solid currentColor;
