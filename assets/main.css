@@ -4,7 +4,7 @@
   --marker: #CCCCCC;
   --back: #898989;
   --main-font: "Schibsted Grotesk", sans-serif;
-  --mono-font: "Liberation Mono", monospace;
+  --mono-font: 'Droid Sans Mono', monospace;
 }
 @font-face {
   font-family: 'LabMono';
@@ -12,6 +12,15 @@
        url('/assets/labmono-regular-web.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Droid Sans Mono';
+    src: url('/assets/droid-sans-mono.woff2') format('woff2'),
+         url('/assets/droid-sans-mono.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 html, body {
