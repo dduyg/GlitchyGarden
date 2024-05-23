@@ -93,9 +93,16 @@ nav {
     letter-spacing: 3px;  
 }
 .item u {
-    text-decoration: none;
-    padding-top: .6rem;
-    border-top: 1px solid var(--color-light-main);
+   text-decoration: none;
+   position: relative;
+}
+.item u::before {
+   content: '';
+   position: absolute;
+   top: -0.15em;
+   left: 0;
+   right: 0;
+   border-top: 1px solid currentColor;
 }
 
 @media screen and (min-width: 30em) {
