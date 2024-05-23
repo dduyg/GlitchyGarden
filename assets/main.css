@@ -99,10 +99,10 @@ nav {
 .item u::before {
    content: '';
    position: absolute;
-   top: -0.25em;
+   top: -0.31em;
    left: 0;
    right: 0;
-   height: 1.3px; /* Intermediate thickness */
+   height: 1.2px; /* Intermediate thickness */
    background-color: currentColor;
 }
 
