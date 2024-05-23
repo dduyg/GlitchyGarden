@@ -1,7 +1,7 @@
 :root {
   --color-main: rgba(0, 0, 0, 0.87);
   --color-light-main: #292721; 
-  --marker: #CCCCCC;
+  --marker: #f9f9f9;
   --back: #898989;
   --main-font: "Schibsted Grotesk", sans-serif;
   --mono-font: 'Droid Sans Mono', monospace;
@@ -245,6 +245,7 @@ footer {
   margin-bottom: 0;
 }
 .social-links a {
+  color: var(--color-light-main);
   font-size: 1.1rem;
   margin-right: .25rem;
   display: inline-block;
