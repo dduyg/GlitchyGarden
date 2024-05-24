@@ -92,19 +92,6 @@ nav {
     margin-right: 1rem;
     letter-spacing: 3px;  
 }
-.item u {
-   text-decoration: none;
-   position: relative;
-}
-.item u::before {
-   content: '';
-   position: absolute;
-   top: -0.33em;
-   left: 0;
-   right: 0;
-   height: 1.1px; /* Intermediate thickness */
-   background-color: currentColor;
-}
 
 @media screen and (min-width: 30em) {
     nav {
