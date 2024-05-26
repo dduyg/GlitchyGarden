@@ -141,7 +141,7 @@ nav {
 }
 .dropdown-content .item.active {
   font-weight: bold;
-  color: var(--marker);
+  border-top-width: 6px;
 }
 .dropdown-btn:focus + .dropdown-content .item {
   left: 0;
