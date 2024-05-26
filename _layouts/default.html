@@ -15,28 +15,51 @@
   {% for css_file in page.css %}<link rel="stylesheet" href="{{ site.baseurl }}/assets/{{ css_file }}.css">{% endfor %}
   </head>
   <body>
-    <nav>
-      <a class="home-badge" href="{{ site.baseurl }}/">
-        <img id="badge" src="assets/images/badge.gif">
-      </a>
-      <div id="menu">
-        <a href="#" class="dropdown-btn" tabindex="0" aria-haspopup="menu">dduyg</a>
-        <div class="dropdown-content">
-          <a class="item" style="--delay: 1;" href="{{ site.baseurl}}/">Home</a>        
-          <a class="item" style="--delay: 2;" href="{{ site.baseurl }}/posts">Posts</a>
-          <a class="item" style="--delay: 3;" href="{{ site.baseurl }}/about">About</a>
-          <a class="item" style="--delay: 4;" href="{{ site.baseurl }}/works">Works</a>
-          <a class="item" style="--delay: 5;" href="{{ site.baseurl }}/contact">Contact</a>
-        </div>
+  <nav>
+    <a class="home-badge" href="{{ site.baseurl }}/">
+      <img id="badge" src="{{ site.baseurl }}/assets/images/badge.gif">
+    </a>
+    <div id="menu">
+      <a href="#" class="dropdown-btn" tabindex="0" aria-haspopup="menu">dduyg</a>
+      <div class="dropdown-content">
+        <a class="item {% if page.url == '/' %}active{% endif %}" style="--delay: 1;" href="{{ site.baseurl }}/">Home</a>
+        <a class="item {% if page.url == '/posts/' %}active{% endif %}" style="--delay: 2;" href="{{ site.baseurl }}/posts">Posts</a>
+        <a class="item {% if page.url == '/about/' %}active{% endif %}" style="--delay: 3;" href="{{ site.baseurl }}/about">About</a>
+        <a class="item {% if page.url == '/works/' %}active{% endif %}" style="--delay: 4;" href="{{ site.baseurl }}/works">Works</a>
+        <a class="item {% if page.url == '/contact/' %}active{% endif %}" style="--delay: 5;" href="{{ site.baseurl }}/contact">Contact</a>
       </div>
-    </nav>
+    </div>
+  </nav>
 
-    <!-- ————————●●●———————— -->
-      {{ content }}
-    <!-- ————————●●●———————— -->
+  <!-- ————————●●●———————— -->
+       {{ content }}
+  <!-- ————————●●●———————— -->
 
-    <footer>
-      {% include footer.html %}
-    </footer>
-  </body>
+  <footer>
+    {% include footer.html %}
+  </footer>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      var dropdownBtn = document.querySelector(".dropdown-btn");
+      var dropdownContent = document.querySelector(".dropdown-content");
+
+      dropdownBtn.addEventListener("click", function(event) {
+        event.preventDefault();
+        if (dropdownContent.style.visibility === "visible") {
+          dropdownContent.style.visibility = "hidden";
+        } else {
+          dropdownContent.style.visibility = "visible";
+        }
+      });
+
+      // Close the dropdown if the user clicks outside of it
+      window.addEventListener("click", function(event) {
+        if (!dropdownBtn.contains(event.target) && !dropdownContent.contains(event.target)) {
+          dropdownContent.style.visibility = "hidden";
+        }
+      });
+    });
+  </script>
+</body>
 </html>
