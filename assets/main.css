@@ -143,16 +143,9 @@ nav {
   font-size: 2.475em;
 }
 .dropdown-content .item.active {
+  font-weight: bold;
   color: var(--back);
-  text-shadow:
-    -2px -2px 0 var(--color-main),
-    2px -2px 0 var(--color-main),
-    -2px 2px 0 var(--color-main),
-    2px 2px 0 var(--color-main),
-    -2px 0 0 var(--color-main),
-    2px 0 0 var(--color-main),
-    0 -2px 0 var(--color-main),
-    0 2px 0 var(--color-main);
+  -webkit-text-stroke: 2px var(--color-main);
 }
 .dropdown-btn:focus + .dropdown-content .item {
   left: 0;
