@@ -38,28 +38,5 @@
   <footer>
     {% include footer.html %}
   </footer>
-
-  <script>
-    document.addEventListener("DOMContentLoaded", function() {
-      var dropdownBtn = document.querySelector(".dropdown-btn");
-      var dropdownContent = document.querySelector(".dropdown-content");
-
-      dropdownBtn.addEventListener("click", function(event) {
-        event.preventDefault();
-        if (dropdownContent.style.visibility === "visible") {
-          dropdownContent.style.visibility = "hidden";
-        } else {
-          dropdownContent.style.visibility = "visible";
-        }
-      });
-
-      // Close the dropdown if the user clicks outside of it
-      window.addEventListener("click", function(event) {
-        if (!dropdownBtn.contains(event.target) && !dropdownContent.contains(event.target)) {
-          dropdownContent.style.visibility = "hidden";
-        }
-      });
-    });
-  </script>
 </body>
 </html>
