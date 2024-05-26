@@ -121,6 +121,8 @@ nav {
   right: 2rem;
   width: 75%;
   max-width: 600px;
+  padding: 1rem;
+  background: var(--back);
   visibility: hidden;
   overflow: hidden;
   z-index: 11;
@@ -134,7 +136,6 @@ nav {
   border: solid var(--color-main);
   border-width: 1px 0 0 0;
   padding: .5rem 1rem 0 0;
-  background: var(--back);
   text-align: left;
   text-decoration: none;
   text-transform: uppercase;
