@@ -98,8 +98,6 @@ nav {
   display: inline-block;
   width: 0.75em;
   height: 0.75em;
-  -moz-border-radius: calc(0.5 * 0.75em);
-  -webkit-border-radius: calc(0.5 * 0.75em);
   border-radius: calc(0.5 * 0.75em);
   background-color: black;
   margin: 0em 0.5em 0em 0em;
@@ -124,7 +122,10 @@ nav {
   visibility: hidden;
   overflow: hidden;
   z-index: 11;
+  opacity: 0; /* Initially hidden */
+  transition: opacity 0.3s ease; /* Smooth transition */
 }
+
 .dropdown-content .item {
   position: relative;
   left: 100%;
@@ -140,15 +141,21 @@ nav {
   text-transform: uppercase;
   font-size: 2.475em;
 }
-.dropdown-btn:focus + .dropdown-content .item {
-  left: 0;
-}
-.dropdown-btn:focus + .dropdown-content {
+
+.dropdown-btn:focus + .dropdown-content,
+.dropdown-btn:focus-within + .dropdown-content {
   visibility: visible;
+  opacity: 1; /* Show dropdown */
 }
+
 .dropdown-content .item:hover {
   background: rgba(0, 0, 0, 0.1);
 }
+
+.item.active {
+  color: red; /* Active color */
+}
+
 /* Media Query */
 @media screen and (min-width: 30em) {
   nav {
