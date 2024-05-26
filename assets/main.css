@@ -118,10 +118,10 @@ nav {
 .dropdown-content {
   position: absolute;
   top: 5rem;
-  right: 0;
+  right: 1rem;
   width: 75%;
   max-width: 600px;
-  padding: 2rem;
+  padding: 1rem;
   background: var(--back);
   visibility: hidden;
   overflow: hidden;
@@ -162,7 +162,7 @@ nav {
     margin-right: 2rem;
   }
   .dropdown-content {
-    right: 4rem;
+    right: 5rem;
     width: 60%;  
   }
 }
