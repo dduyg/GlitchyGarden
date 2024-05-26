@@ -120,7 +120,6 @@ nav {
   max-width: 600px;
   padding: 1rem;
   background: var(--back);
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   visibility: hidden;
   overflow: hidden;
   z-index: 11;
