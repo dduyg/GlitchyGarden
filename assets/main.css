@@ -113,7 +113,14 @@ nav {
 .dropdown-btn:focus,
 .dropdown-btn:active {
   font-weight: bold;
-  color: var(--marker);
+
+      content: '';
+      position: absolute;
+      top: -0.33em;
+      left: 0;
+      right: 0;
+      height: 1.5px; /* Intermediate thickness */
+      background-color: currentColor;
 }
 .dropdown-content {
   position: absolute;
@@ -144,8 +151,7 @@ nav {
 }
 .dropdown-content .item.active {
   font-weight: bold;
-  color: var(--back);
-  -webkit-text-stroke: 2px var(--color-main);
+  color: var(--marker);
 }
 .dropdown-btn:focus + .dropdown-content .item {
   left: 0;
