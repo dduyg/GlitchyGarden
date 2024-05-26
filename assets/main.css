@@ -113,14 +113,9 @@ nav {
 .dropdown-btn:focus,
 .dropdown-btn:active {
   font-weight: bold;
-
-      content: '';
-      position: absolute;
-      top: -0.33em;
-      left: 0;
-      right: 0;
-      height: 1.5px; /* Intermediate thickness */
-      background-color: currentColor;
+  text-decoration: overline;
+  text-decoration-thickness: 2px;
+  text-decoration-offset: 5px;
 }
 .dropdown-content {
   position: absolute;
