@@ -82,13 +82,13 @@ nav {
   width: 75%;
   text-align: right;
   letter-spacing: 1px;
+  color: var(--color-light-main);
   font-family: var(--mono-font);
 }
 .dropdown-btn {
   position: relative;
   display: inline-block;
   font-size: 1em;
-  color: var(--color-light-main);
   margin-right: 1rem;
   letter-spacing: 3px;
   cursor: pointer;
@@ -117,7 +117,7 @@ nav {
   top: 5rem;
   right: 2rem;
   width: 80%;
-  max-width: 600px;
+  max-width: 550px;
   visibility: hidden;
   overflow: hidden;
   z-index: 11;
@@ -128,7 +128,6 @@ nav {
   transition: 0.5s;
   transition-delay: calc(60ms * var(--delay));
   display: block;
-  color: var(--color-main);
   border: solid var(--color-main);
   border-width: 2px 1px 1px 2px;
   border-radius: 50%;
@@ -150,7 +149,7 @@ nav {
   display: inline-block;
   width: 0.6em;
   height: 0.6em;
-  background-color: black;
+  background-color: var(--color-main);
   margin-right: 0.4em;
   animation: rotate 1.5s ease-in-out infinite;
 }
