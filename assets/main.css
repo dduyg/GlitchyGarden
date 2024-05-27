@@ -116,7 +116,7 @@ nav {
   position: absolute;
   top: 5rem;
   right: 2rem;
-  width: 80%;
+  width: 85%;
   max-width: 550px;
   visibility: hidden;
   overflow: hidden;
@@ -141,8 +141,7 @@ nav {
   font-size: 2.475em;
 }
 .dropdown-content .item.active {
-  color: var(--back);
-  font-weight: bold;
+  text-decoration: underline;
 }
 .dropdown-content .item.active::before {
   content: '';
@@ -150,7 +149,7 @@ nav {
   width: 0.6em;
   height: 0.6em;
   background-color: var(--color-main);
-  margin-right: 0.4em;
+  margin-right: 0.3em;
   animation: rotate 1.5s ease-in-out infinite;
 }
 .dropdown-btn:focus + .dropdown-content .item {
