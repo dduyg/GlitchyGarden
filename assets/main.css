@@ -146,11 +146,10 @@ nav {
 .dropdown-content .item.active::before {
   content: '';
   display: inline-block;
-  width: 0.75em;
-  height: 0.75em;
-  border-radius: 50%;
+  width: 0.65em;
+  height: 0.65em;
   background-color: black;
-  margin-right: 0.5em;
+  margin-right: 0.4em;
   animation: rotate 1.5s ease-in-out infinite;
 }
 .dropdown-btn:focus + .dropdown-content .item {
