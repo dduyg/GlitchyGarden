@@ -141,7 +141,7 @@ nav {
   font-size: 2.475em;
 }
 .dropdown-content .item.active {
-  color: #232b2b;
+  opacity: 0.6;
 }
 .dropdown-content .item.active::before {
   content: '';
