@@ -168,13 +168,13 @@ nav {
     padding-left: 4rem;
     padding-right: 4rem;
   }
-  .dropdown-btn {
+  .dropdown-btn, .dropdown-content, .d-item {
+    display: none;  
+  }
+  .item {
+    display: inline-block;
     font-size: 1.1em;
     margin-right: 2rem;
-  }
-  .dropdown-content {
-    right: 6rem;
-    width: 60%;  
   }
 }
 /********************************/
