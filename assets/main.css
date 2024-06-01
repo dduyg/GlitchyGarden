@@ -93,7 +93,8 @@ nav {
   letter-spacing: 3px;
   cursor: pointer;
   border-radius: 50%;
-  border: 1px solid var(--color-light-main);
+  border: 1px solid #7B7B7B;
+  background: #7B7B7B;
   padding: .5rem 1rem;
 }
 .dropdown-btn::before {
