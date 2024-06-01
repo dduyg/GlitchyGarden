@@ -92,6 +92,8 @@ nav {
   margin-right: 1rem;
   letter-spacing: 3px;
   cursor: pointer;
+  border-radius: 50%;
+  border: 1px solid var(--color-light-main);
 }
 .dropdown-btn::before {
   content: '';
